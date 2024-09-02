@@ -29,10 +29,17 @@ Type 'sumfetch' to display summary.
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
 Welcome to my website!
+
+
+Data Engineer/Scientist with experience in Python and its ecosystem. 
+Experience in data wrangling, ETL processes, and building robust data pipelines. 
+Passionate about transforming complex datasets into actionable insights. 
+Let's connect to drive data-driven solutions!
+
+
 More about me:
 'sumfetch' - short summary.
-'resume' - my latest resume.
-'readme' - my github readme.`;
+'resume' - my latest resume.`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
